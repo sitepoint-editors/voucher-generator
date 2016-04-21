@@ -1,0 +1,9 @@
+# OS-specific
+.DS_Store
+
+# Package managers
+bower_components/
+node_modules/
+
+# Project-specific
+dist/

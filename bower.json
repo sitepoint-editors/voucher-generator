@@ -1,0 +1,14 @@
+{
+  "name": "sitepoint-voucher-generator",
+  "description": "Generate SitePoint Vouchers",
+  "authors": [
+    "Elio Qoshi <ping@elioqoshi.me> (https://elioqoshi.me)",
+    "Tim Severien <hi@timseverien.com> (https://timseverien.com)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sitepoint/voucher-generator",
+  "private": true,
+  "devDependencies": {
+    "jspdf": "^1.2.61"
+  }
+}

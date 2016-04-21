@@ -1,0 +1,39 @@
+{
+  "name": "sitepoint-voucher-generator",
+  "version": "0.0.0",
+  "description": "Generate SitePoint Vouchers",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp clean; gulp build",
+    "postversion": "node bin/publish.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitepoint/voucher-generator.git"
+  },
+  "contributors": [
+    "Elio Qoshi <ping@elioqoshi.me> (https://elioqoshi.me)",
+    "Tim Severien <hi@timseverien.com> (https://timseverien.com)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sitepoint/voucher-generator/issues"
+  },
+  "homepage": "https://github.com/sitepoint/voucher-generator#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
